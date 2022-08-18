@@ -1,0 +1,113 @@
+
+.Firstp{
+    background-color: #333333;
+    overflow-x: hidden;
+    
+}
+.linkh{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-align: left;
+
+}
+.linkh:hover{
+    color:#D10024 !important;
+}
+@media screen and (max-width:320px) {
+    .navb{
+        background-color: black !important;
+    }
+.ctl{
+    background-color: #333333 !important;
+    border-bottom: 4px solid #D10024;
+}}
+.cart{
+    border: 0px;
+    background-color: #000000 !important;
+}
+@media screen and (min-width:1024px) {
+    .navb{
+        border-bottom: 4px solid #D10024;
+    }  
+    .cart{
+        border: 0px;
+        background-color: #212529 !important;
+    }
+}
+
+.selectsect{
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius:0px;
+    width: 70%;
+    border: 0px;
+}
+.searchbtn{
+    border-top-right-radius:20px ;
+    border-bottom-right-radius: 20px; 
+    border-top-left-radius:0px ;
+    border-bottom-left-radius:0px;
+    background:#D10024;
+    color: white;
+    width: 50%;
+    border: 0px;
+}
+.searchbtn:hover{
+   background-color: #D10024;
+   color: white;
+}
+.searchinput{
+    border-left: 1px solid black;
+    border-radius: 0px; 
+}
+.wishlistic{
+    width: 25px !important;
+    height: 25px !important;
+}
+.badge{
+    left:80%;
+}
+.cart{
+    border: 0px;
+    background-color: #212529;
+}
+.cart:hover{
+background-color: #D10024;
+}
+.textcolor{
+    color:white !important;
+}
+.Tgbtn{
+    background-color: #333333 !important;
+}
+.Linkne{
+    display: inline-block;
+    position: relative;
+  }
+  
+  .Linkne:after {
+    content: '';
+    position:absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    top: 32px;
+    left: 0;
+    background-color:#D10024 ;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .Linkne:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .act{
+    color:#D10024 !important;
+    text-decoration: underline; 
+     text-decoration-thickness: 2px; 
+     text-underline-offset: 0.30em;  
+ 
+  }
